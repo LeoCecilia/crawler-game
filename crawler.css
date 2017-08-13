@@ -1,0 +1,77 @@
+html,body{
+	margin: 0;
+}
+
+.container,.panel{
+	display: flex;
+}
+
+.panel{
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0.8em 1.2em;
+	background: #ffd89b;
+	width: 245px;
+	height: 80px;
+}
+
+.score-item{
+	margin: 0.6em 0;
+	min-width: 40%;
+}
+
+.game-container{
+	position: relative;	
+}
+#fog{
+	position: absolute;	
+	top: 0;
+	left: 0;
+}
+
+#canvas{
+	background: #000;
+}
+
+.fun {
+    width: 283px;
+    height: 80px;
+    background: #ffd89b;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 76px;
+    /* cursor: pointer; */
+}
+
+.sidebar {
+    margin-left: 20px;
+}
+
+.fun button {
+    border: none;
+    padding: 5px 8px;
+    margin: 15px;
+    cursor: pointer;
+    background: #19547b;
+    font-size: 17px;
+    color: #fff;
+}
+
+button:hover {
+    background: #0f354e;
+}
+
+.log-panel {
+    width: 283px;
+    height: 234px;
+    overflow: auto;
+    background: #ffd89b;
+    margin-top: 30px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.log-panel div {
+    display: flex;
+    justify-content: space-between;
+}
