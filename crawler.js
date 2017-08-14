@@ -458,7 +458,7 @@ Actuator.prototype.createFog = function() {
 	this.fog.height = 480;
 	//径向渐变
 	var gradient = this.fogCtx.createRadialGradient(300, 240, 240, 300, 240, 0);
-	gradient.addColorStop(0, "#9e8065");
+	gradient.addColorStop(0, "#ebc099");
 	gradient.addColorStop(1, "transparent");
 	this.fogCtx.fillStyle = gradient;
 	this.fogCtx.fillRect(0, 0, 600, 480);
